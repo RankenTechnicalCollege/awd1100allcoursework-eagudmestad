@@ -1,0 +1,1 @@
+xcopy "Exercise Starts\*" "C:\C#\*" /E

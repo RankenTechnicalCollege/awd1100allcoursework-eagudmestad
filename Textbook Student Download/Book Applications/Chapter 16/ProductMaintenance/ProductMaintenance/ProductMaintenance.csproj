@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ValidationLibrary">
+      <HintPath>..\..\ValidationLibrary\ValidationLibrary\bin\Debug\netcoreapp3.1\ValidationLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
